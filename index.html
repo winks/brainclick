@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>cf</title>
+<style>
+body {
+  background-color: #000;
+  color: #eee;
+  font-size: 48px;
+}
+.main {
+  background-color: #211;
+  width: 700px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block {
+  width: 100px;
+  height: 100px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 50px;
+  float: left;
+  margin-right: 50px;
+  background-color: #113;
+}
+.active {
+  background-color: #447;
+}
+.lo {
+  background-color: #000;
+}
+.rio {
+  margin-right: 0;
+  background-color: #111;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+.off .block {
+  background-color: #000;
+}
+.off .left {
+  background-color: #A8516E;
+}
+.off .middle {
+  background-color: #51A86E;
+}
+.off .rio {
+  background-color: #121;
+}
+.off .right {
+  background-color: #112;
+}
+.wide {
+  background-color: #211;
+  width: 400px;
+  height: 100px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 50px;
+  float: left;
+}
+.hidden {
+  visibility: hidden;
+}
+</style>
+</head>
+<body>
+<!--<div class="main main3">
+  <div class="off2">
+    <div class="block lo"></div>
+    <div class="wide hidden2">
+     <textarea class="foo" />
+    </div>
+  </div>
+</div>-->
+<div class="main main2">
+<!--
+  <div class="row numbered num-666">
+    <div class="block lo"></div>
+    <div class="block left item"   id="item-666-0"></div>
+    <div class="block middle item" id="item-666-1"></div>
+    <div class="block right item"  id="item-666-2"></div>
+    <div class="block ro"></div>
+  </div>
+-->
+</div>
+<div class="main">
+  <div class="row off">
+    <div class="block lo"></div>
+    <div class="block left"></div>
+    <div class="block middle"></div>
+    <div class="block right"></div>
+    <div class="block rio"></div>
+  </div>
+</div>
+<script src="lib/zepto.js"></script>
+<script src="lib/bc.js"></script>
+</body>
+</html>
