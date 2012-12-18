@@ -20,8 +20,14 @@ body {
     margin-right: 50px;
     background-color: #113;
 }
+.item:hover {
+    background-color: #224;
+}
 .active {
     background-color: #447;
+}
+.active:hover {
+    background-color: #363666;
 }
 .lo {
     background-color: #000;
@@ -35,28 +41,61 @@ body {
 }
 .off .block {
     background-color: #000;
+    font-size: 20px;
+    font-family: "arial";
+    line-height: 100px;
+    text-align: center;
+    font-weight: normal;
 }
 .off .left {
-    background-color: #A8516E;
+    background-color: #121;
 }
 .off .middle {
-    background-color: #51A86E;
+    background-color: #112;
+}
+.off .middle a:hover {
+    background-color: #223;
+    cursor: pointer;
 }
 .off .right {
     background-color: #112;
 }
+.off a {
+    display: block;
+}
+.off .right a:hover {
+    background-color: #223;
+    cursor: pointer;
+}
 .off .rio {
     background-color: #121;
 }
+.off .rio a:hover {
+    background-color: #232;
+    cursor: pointer;
+}
 #wide {
-    background-color: #211;
-    width: 400px;
+    background-color: #212;
+    width: 550px;
     height: 100px;
     margin-top: 0;
-    margin-left: 0;
+    margin-left: 150px;
     margin-bottom: 50px;
+    padding: 0;
     float: left;
+    font-size: 20px;
+    font-family: monospace;
+}
+#codepanel {
+    margin: 10px;
 }
 .hidden {
     visibility: hidden;
+}
+#closebutton {
+    float: right;
+    width: 15px;
+    font-weight: normal;
+    font-size: 16px;
+    cursor: pointer;
 }
