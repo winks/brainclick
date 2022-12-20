@@ -7,7 +7,7 @@ Made for [PLT Games 2012-12](http://www.pltgames.com/competition/2012/12) "Into 
 
 Demo
 ----
-A possibly updated version can be found here: http://winks.github.com/brainclick/
+A possibly updated version can be found here: http://winks.github.io/brainclick/
 
 Credits
 -------
